@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkAssure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+<body class="text-gray-800 bg-white">
+
+    
+    <header>
+        <nav class="container">
+            <div class="logo">
+                Work<span>Assure</span>
+            </div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="#contact" class="btn-header mobile-hidden">
+                Get Started
+            </a>
+
+            
+            <button id="mobile-menu-button" class="menu-button">
+                <svg class="w-6 h-6" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </nav>
+        
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="hero-bg py-20" id="hero">
+            <div class="container text-center">
+                <h1 class="hero-title">
+                    Build. Design. <span>Innovate.</span>
+                </h1>
+                <p class="hero-text">
+                    We craft exceptional digital experiences, specializing in scalable web development and stunning UI/UX design.
+                </p>
+                <a href="#contact" class="btn-hero">
+                    Get Started
+                </a>
+            </div>
+        </section>
+
+        
+        <section class="py-20 services-section" id="services">
+            <div class="container">
+                <div class="text-center mb-16">
+                    <h2 class="section-title">Our Core Services</h2>
+                    <p class="section-subtitle">Solutions designed to elevate your digital presence.</p>
+                </div>
+
+                <div class="services-grid">
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        </div>
+                        <h3 class="service-title">Full-Stack Web Development</h3>
+                        <p class="service-description">We build fast, secure, and scalable web applications from the ground up using modern frameworks like React and Node.js.</p>
+                        
+                    </div>
+
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L12 14.75m0 0L14.25 17m-2.25-2.25V7.5M21 12c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8z"></path></svg>
+                        </div>
+                        <h3 class="service-title">User Interface & Experience (UI/UX)</h3>
+                        <p class="service-description">Creating intuitive, beautiful, and user-centered designs that reduce friction and drive conversion for your users.</p>
+                        
+                    </div>
+
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2-10V4.75A2.25 2.25 0 0017.25 2h-10.5A2.25 2.25 0 004.5 4.75v14.5A2.25 2.25 0 006.75 22h10.5A2.25 2.25 0 0019.5 19.25V12"></path></svg>
+                        </div>
+                        <h3 class="service-title">Landing Page Creation</h3>
+                        <p class="service-description">Design and deploy high-converting landing pages optimized for performance, SEO, and specific marketing campaigns.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="py-20" id="portfolio">
+            <div class="container">
+                <div class="text-center mb-16">
+                    <h2 class="section-title">Recent Projects</h2>
+                    <p class="section-subtitle">Showcasing our dedication to quality and results.</p>
+                </div>
+
+                <div class="portfolio-grid">
+                    
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/3b82f6/ffffff?text=E-commerce+Platform" alt="E-commerce Platform design">
+                        <div class="project-content">
+                            <span class="project-tag">Web Development</span>
+                            <h4 class="service-title">Global Retail E-commerce Redesign</h4>
+                            <p>Improved page load speed by 40% and conversion rate by 15% with a modern React frontend.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/10b981/ffffff?text=SaaS+UI%2FUX" alt="SaaS UI/UX design">
+                        <div class="project-content">
+                            <span class="project-tag">UI/UX Design</span>
+                            <h4 class="service-title">B2B SaaS Analytics Dashboard</h4>
+                            <p>Designed a clean, complex dashboard resulting in a 30% reduction in customer support requests.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/ef4444/ffffff?text=Mobile+App" alt="Mobile App Development">
+                        <div class="project-content">
+                            <span class="project-tag">Strategy & Mobile</span>
+                            <h4 class="service-title">HealthTech Mobile MVP Launch</h4>
+                            <p>Defined the MVP feature set and developed native-feeling mobile app with Expo/React Native.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="py-20 about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div>
+                        <h2 class="about-title">Who We Are</h2>
+                        <p style="color: #d1d5db; font-size: 1.125rem; margin-bottom: 1rem;">
+                            Innovate Digital is a dedicated team of designers, engineers, and strategists obsessed with solving complex business problems through elegant digital solutions. We believe in transparency, collaboration, and delivering measurable results.
+                        </p>
+                        <p style="color: #9ca3af;">
+                            Our process is built on Agile methodologies, ensuring flexibility and efficiency from the first wireframe to the final deployment. We don't just build websites; we build partnerships.
+                        </p>
+                        <a href="#services" class="about-link">
+                            Explore Our Process &rarr;
+                        </a>
+                    </div>
+                    
+                    <div class="about-metrics">
+                        <div class="metric-item">
+                            <div class="metric-value">95%</div>
+                            <p class="metric-label">Client Satisfaction Rating</p>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">50+</div>
+                            <p class="metric-label">Successful Projects Launched</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="py-20" id="contact">
+            <div class="container">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Let's Talk About Your Project</h2>
+                    <p class="section-subtitle">Schedule a free consultation and let's bring your vision to life.</p>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Work Email</label>
+                            <input type="email" id="email" name="email" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Interested Service</label>
+                            <select id="service" name="service" required class="form-select">
+                                <option value="">Select a service...</option>
+                                <option value="web-dev">Full-Stack Web Development</option>
+                                <option value="ui-ux">UI/UX Design & Prototyping</option>
+                                <option value="consulting">Digital Strategy & Consulting</option>
+                                <option value="other">Other / General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message / Project Details</label>
+                            <textarea id="message" name="message" rows="4" required class="form-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            Send Inquiry
+                        </button>
+                    </form>
+
+                    <div id="submission-message" class="submission-message" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container text-center py-10">
+            <div class="footer-logo mb-4">Work<span>Assure</span></div>
+            <p class="footer-text">&copy; 2025 WorkAssure. All rights reserved.</p>
+            <div class="footer-links" style="margin-top: 1rem; font-size: 0.875rem;">
+                <a href="#">Privacy Policy</a>
+                <span style="color: #6b7280; margin: 0 0.5rem;">|</span>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</footer>
+
+    <script src="static/script.js"></script>
+
+</body>
+</html>
